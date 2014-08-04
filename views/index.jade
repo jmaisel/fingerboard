@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	h1= title
+	p Welcome to #{title}
+	
+	div(id='svg-wrapper', style='margin: 0 auto; width: 500px;')
+		svg(id='svg', style='background: lightgrey;')
+		
+	div(id='controls', class='inspector-frame')
+		span Chord
+		input(type='text', id='chord-input')
+		input(type='button', id='clear', value='clear')

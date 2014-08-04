@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.inspector-frame{
+	position: absolute;
+	background: pink;
+	width: 100px;
+	height: 100px;
+	top: 0px;
+	right: 0px;
+}
